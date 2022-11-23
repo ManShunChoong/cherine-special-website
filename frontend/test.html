@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+        <link href="static/css/style.css" rel="stylesheet">
+    </head>
+
+    <body class="vsc-initialized">
+        <div id="header">
+            <span>CHERINE SPECIAL</span>
+        </div>
+
+        <div id="content">
+            <div id="section-1" class="section full-margin-right">
+                <h1 id="item">Product Table</h1>
+
+                <div id="table-container">
+                    <table id="main-table"><tr><th class="important">ID</th><th class="important">Name</th><th class="zero-width">Full Name</th><th class="important">Price (RM)</th><th class="zero-width">Type</th><th class="zero-width">Meat</th><th class="zero-width"></th></tr><tr id="1"><td class="important"><span id="id-1">1</span></td><td class="important"><span id="name-1">Braised Duck</span><span id="chinese_name-1">卤鸭</span></td><td class="zero-width"><span id="full_name-1">Hokkien Style Braised Duck</span><span id="chinese_full_name-1">福建风味卤鸭</span></td><td class="important"><span class="numeric" id="price-1">82.00</span></td><td class="zero-width"><span id="type-1">Warm</span></td><td class="zero-width"><span id="meat-1">Duck</span></td><td class="zero-width"></td></tr><tr id="2"><td class="important"><span id="id-2">2</span></td><td class="important"><span id="name-2">Ginger Duck</span><span id="chinese_name-2">姜卤鸭</span></td><td class="zero-width"><span id="full_name-2">Ginger Duck?</span><span id="chinese_full_name-2">姜卤鸭?</span></td><td class="important"><span class="numeric" id="price-2">0.00</span></td><td class="zero-width"><span id="type-2">Warm</span></td><td class="zero-width"><span id="meat-2">Duck</span></td><td class="zero-width"></td></tr><tr id="3"><td class="important"><span id="id-3">3</span></td><td class="important"><span id="name-3">Pipa Duck</span><span id="chinese_name-3">琵琶鸭</span></td><td class="zero-width"><span id="full_name-3">Pipa Duck?</span><span id="chinese_full_name-3">琵琶鸭</span></td><td class="important"><span class="numeric" id="price-3">78.00</span></td><td class="zero-width"><span id="type-3">Warm</span></td><td class="zero-width"><span id="meat-3">Duck</span></td><td class="zero-width"></td></tr><tr id="4"><td class="important"><span id="id-4">4</span></td><td class="important"><span id="name-4">Herbal Chicken</span><span id="chinese_name-4">药材鸡</span></td><td class="zero-width"><span id="full_name-4">Herbal Chicken?</span><span id="chinese_full_name-4">药材鸡?</span></td><td class="important"><span class="numeric" id="price-4">66.00</span></td><td class="zero-width"><span id="type-4">Warm</span></td><td class="zero-width"><span id="meat-4">Chicken</span></td><td class="zero-width"></td></tr></table>
+                </div>
+            </div>
+
+            <div id="section-content-2" class="section">
+                <h1 id="item-name">
+                    <div class="input editable" id="name">Ginger Duck</div>
+                    <div class="input editable" id="chinese_name">姜卤鸭</div>
+                </h1>
+
+                <div id="input-container">
+                    <div class="field-area hidden">
+                        <label>ID:</label>
+                        <div class="input large-font" id="id" placeholder="undefined">2</div>
+                    </div>
+
+                    <div class="field-area">
+                        <label>Full Name:</label>
+                        <div class="input large-font editable" id="full_name" placeholder="Full Name">Ginger Duck?</div>
+                        <div class="input large-font editable" id="chinese_full_name" placeholder="Chinese Full Name">姜卤鸭?</div>
+                    </div>
+
+                    <div class="field-area">
+                        <label>Price (RM):</label>
+                        <div class="input large-font numeric editable" id="price" placeholder="Price (RM)">0.00</div>
+                    </div>
+
+                    <div class="field-area">
+                        <label>Type:</label>
+
+                        <div>
+                            <div class="input option-box editable" id="type" placeholder="Type">  <!--  large-font -->
+                                <div class="option">Warm</div>
+                            </div>
+
+                            <div class="option-container">
+                                <div class="option-box">
+                                    <div class="option">Warm</div>
+                                </div>
+
+                                <div class="option-box">
+                                    <div class="option">Frozen</div>
+                                </div>
+
+                                <div class="option-box">
+                                    <div class="option">Ingredient</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field-area">
+                        <label>Meat:</label>
+
+                        <div class="select-box">
+                            <div class="option" id="meat">Duck</div>
+                            <div class="select-input editable"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>© Copyright 2022 Cherine Special</p>
+        </div>
+    </body>
+</html>

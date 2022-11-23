@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cherine_special"
+version = "0.1.0"
+description = ""
+authors = ["ManShunChoong <72306346+ManShunChoong@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.4"
+django-debug-toolbar = "^3.2.4"
+djangorestframework = "^3.13.1"
+django-cors-headers = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
